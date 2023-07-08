@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    box-sizing: border-box;
+}
+
+img{
+    height: 50px;
+}
+h1{
+    margin-right: 700px;
+}
+header .container,
+section .artes{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+    
+}
+ul, li, a{
+    display: flex;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #691d1d;
+    
+}
+
+h1{
+    color:rgb(141, 44, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+header .container{
+    background-color: rgb(247, 240, 243);
+    
+}
+
+.sorriso{
+    width: 610px;
+    height: 480px;
+    margin-top: 30px;
+}
+
+.branch img{
+    height: 24px;
+}
+.branch .zap{
+    height: 27px;
+}
+form input, form textarea,
+form button{
+    display: block;
+    width: 320px;
+    padding: 10px;
+}
+
+.contact{
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ss{
+    
+    height: 370px;
+    width: 770px;
+}
+
+.rodape footer p{
+    background-color: rgb(141, 44, 44);
+    color: #fff;
+    margin-top: 50px;
+}
+
+section{
+    background-color: rgb(245, 227, 235);
+}
+h2{
+    font-family: 'Petemoss', cursive;
+    font-size: 50px;
+    color:rgb(141, 44, 44);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 77, 77);
+}
+form button{
+    background-color:  rgb(141, 44, 44);
+    color: #fff;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(141, 44, 44);
+
+}
+input:focus, textarea:focus{
+    outline-color:  rgb(141, 44, 44);
+}
+
